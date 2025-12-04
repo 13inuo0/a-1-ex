@@ -13,3 +13,37 @@ a{
     color: #333333;
 }
 
+
+.tab-wrap{
+    position: relative;
+}
+.tabmenu{
+    display: flex;
+}
+.tabmenu > li{
+    width: 100px;
+    background-color: aliceblue;
+}
+.tabmenu>li>h2>a{
+    display: block;
+
+}
+.tabmenu>li.on{
+    background-color: navy;
+}
+.tabmenu>li.on>a{
+    color: white;
+}
+
+.tabcon{
+    width: 100%;
+    background-color: navy;
+    position: absolute;
+    left: 0;
+}
+
+.notice ul>li>a{
+display: flex;
+justify-content: space-between;
+line-height: 25px;
+}
